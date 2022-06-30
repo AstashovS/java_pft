@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="class to main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build/classes/java/test/MyFirstClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/MyFirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/MyFirstClass12.java" afterDir="false" />
+    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="delete build">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox/build.gradle" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15332031" />
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656542007821</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="delete build">
+      <created>1656575685567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656575685567</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="class to main" />
-    <option name="LAST_COMMIT_MESSAGE" value="class to main" />
+    <MESSAGE value="delete build" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete build" />
   </component>
 </project>
