@@ -1,17 +1,17 @@
 package ru.stqa.pft.sandbox;
 
 public class Point {
-    public double point1;
-    public double point2;
+    public double coordinate1;
+    public double coordinate2;
 
-    public Point(double point1, double point2) {
-        this.point1 = point1;
-        this.point2 = point2;
+    public Point(double coordinate1, double coordinate2) {
+        this.coordinate1 = coordinate1;
+        this.coordinate2 = coordinate2;
     }
 
     public double distance(Point p2) {
-        double squarePointFirst =Math.pow((this.point1 - p2.point1), 2);
-        double squarePointsSecond =Math.pow((this.point2 - p2.point2), 2);
+        double squarePointFirst =Math.pow((this.coordinate1 - p2.coordinate1), 2);
+        double squarePointsSecond =Math.pow((this.coordinate2 - p2.coordinate2), 2);
         return Math.sqrt(squarePointFirst + squarePointsSecond);
     }
 
