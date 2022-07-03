@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook">
-      <change afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupData.java" afterDir="false" />
+    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="Параметризовать метод заполнения методов&#10;fillGroupForm, loginLocalhost">
+      <change afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactCreationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupsCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupsCreationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <recent name="ru.stqa.pft.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupsCreationTests">
+  <component name="RunManager" selected="TestNG.ContactCreationTests">
     <configuration name="MyFirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstClass" />
       <module name="sandbox.main" />
@@ -120,6 +120,23 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="address-web-tests.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.ContactCreationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,9 +179,11 @@
       <item itemvalue="Application.MyFirstClass" />
       <item itemvalue="TestNG.SquareTests" />
       <item itemvalue="TestNG.GroupsCreationTests" />
+      <item itemvalue="TestNG.ContactCreationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactCreationTests" />
         <item itemvalue="TestNG.GroupsCreationTests" />
         <item itemvalue="TestNG.SquareTests" />
         <item itemvalue="Application.MyFirstClass" />
@@ -250,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656875245104</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Параметризовать метод заполнения методов&#10;fillGroupForm, loginLocalhost">
+      <created>1656877249032</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656877249032</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,7 +300,8 @@
     <MESSAGE value="Выполнено задание &#10;Задание №2: Потренироваться использовать функции, классы, объекты и методы" />
     <MESSAGE value="Выполнено Задание №3: &#10;Подключить тестовый фреймворк и сделать первые тесты" />
     <MESSAGE value="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook" />
+    <MESSAGE value="Параметризовать метод заполнения методов&#10;fillGroupForm, loginLocalhost" />
+    <option name="LAST_COMMIT_MESSAGE" value="Параметризовать метод заполнения методов&#10;fillGroupForm, loginLocalhost" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
