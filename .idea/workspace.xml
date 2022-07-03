@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="Выполнено Задание №3: &#10;Подключить тестовый фреймворк и сделать первые тесты">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656796766331</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook">
+      <created>1656875094986</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656875094986</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +264,8 @@
     <MESSAGE value="create package for MyFirstClass" />
     <MESSAGE value="Выполнено задание &#10;Задание №2: Потренироваться использовать функции, классы, объекты и методы" />
     <MESSAGE value="Выполнено Задание №3: &#10;Подключить тестовый фреймворк и сделать первые тесты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнено Задание №3: &#10;Подключить тестовый фреймворк и сделать первые тесты" />
+    <MESSAGE value="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
