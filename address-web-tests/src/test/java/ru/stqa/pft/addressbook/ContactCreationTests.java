@@ -21,7 +21,7 @@ public class ContactCreationTests {
     @Test
     public void testContactCreation() throws Exception {
         goToPage("http://localhost/addressbook/edit.php");
-        fillContactData(new ContactData("Sergey", "Vi", "Astashov", "AstSer", "Kek", "C:\\Users\\Sergey\\Desktop\\2ce2530f66e600a020c12b0c60c5e9e2.png", "Company", "Moscow, default address", "42", "+79771234567", "QA"));
+        fillContactData(new ContactData("Sergey", "Vi", "Astashov", "AstSer", "Kek", "C:\\Users\\Sergey\\Desktop\\2ce2530f66e600a020c12b0c60c5e9e2.png", "Company", "Moscow, default address", "42", "+79771234562", "+323145"));
         submitContactCreation();
         returnToHomePage();
     }
@@ -53,11 +53,11 @@ public class ContactCreationTests {
         wb.findElement(By.name("address")).clear();
         wb.findElement(By.name("address")).sendKeys(contactData.getAddress());
         wb.findElement(By.name("home")).clear();
-        wb.findElement(By.name("home")).sendKeys(contactData.getHome());
+        wb.findElement(By.name("home")).sendKeys(contactData.getHomePhoneNumber());
         wb.findElement(By.name("mobile")).clear();
-        wb.findElement(By.name("mobile")).sendKeys(contactData.getPhoneNumber());
+        wb.findElement(By.name("mobile")).sendKeys(contactData.getMobilePhoneNumber());
         wb.findElement(By.name("work")).clear();
-        wb.findElement(By.name("work")).sendKeys(contactData.getWork());
+        wb.findElement(By.name("work")).sendKeys(contactData.getWorkPhoneNumber());
     }
 
 
@@ -100,4 +100,6 @@ public class ContactCreationTests {
     }
 
 }
+
+
 

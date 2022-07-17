@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="Параметризовать метод заполнения методов&#10;fillGroupForm, loginLocalhost">
-      <change afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactCreationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactData.java" afterDir="false" />
+    <list default="true" id="b728636a-462b-457f-87cc-7f1a35ad8ffb" name="Default Changelist" comment="Выполнено Задание №4:&#10;Сделать тесты для создания групп и контактов в адресной книге">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/ContactData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupsCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/address-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupsCreationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +99,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.35188216" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -276,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656877249032</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Выполнено Задание №4:&#10;Сделать тесты для создания групп и контактов в адресной книге">
+      <created>1656882136384</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656882136384</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +309,8 @@
     <MESSAGE value="Выполнено Задание №3: &#10;Подключить тестовый фреймворк и сделать первые тесты" />
     <MESSAGE value="Добавлен тест на webdriver:chromewebdriver&#10;для addresbook" />
     <MESSAGE value="Параметризовать метод заполнения методов&#10;fillGroupForm, loginLocalhost" />
-    <option name="LAST_COMMIT_MESSAGE" value="Параметризовать метод заполнения методов&#10;fillGroupForm, loginLocalhost" />
+    <MESSAGE value="Выполнено Задание №4:&#10;Сделать тесты для создания групп и контактов в адресной книге" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено Задание №4:&#10;Сделать тесты для создания групп и контактов в адресной книге" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

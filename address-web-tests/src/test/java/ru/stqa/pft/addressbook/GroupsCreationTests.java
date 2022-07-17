@@ -35,7 +35,7 @@ public class GroupsCreationTests {
     public void testGroupsCreation() throws Exception {
         goToGroupPage("http://localhost/addressbook/group.php");
         initGroupCreation();
-        fillGroupForm(new GroupData("test2", "", ""));
+        fillGroupForm(new GroupData("test1", "", ""));
         submitGroupCreation();
         returnTiGroupPage();
         initGroupCreation();
