@@ -6,6 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 public class ContactCreationTests {
@@ -21,7 +22,8 @@ public class ContactCreationTests {
     @Test
     public void testContactCreation() throws Exception {
         goToPage("http://localhost/addressbook/edit.php");
-        fillContactData(new ContactData("Sergey", "Vi", "Astashov", "AstSer", "Kek", "C:\\Users\\Sergey\\Desktop\\2ce2530f66e600a020c12b0c60c5e9e2.png", "Company", "Moscow, default address", "42", "+79771234562", "+323145"));
+        File photo = new File("src/test/resources/2ce2530f66e600a020c12b0c60c5e9e2.png");
+        fillContactData(new ContactData("Sergey", "Vi", "Astashov", "AstSer", "Kek",photo.getAbsolutePath(), "Company", "Moscow, default address", "42", "+79771234562", "+323145"));
         submitContactCreation();
         returnToHomePage();
     }
